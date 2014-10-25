@@ -1,6 +1,14 @@
 GettingAndCleaningData
 ======================
-Run run_analysis.R and as long as the following files are in your workspace it will produce the tidyDataset you are looking for
+This projects contains an analisis script that cleans data related to a Human Activity Recognition project.  More detailed information about the project can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+Data Set Characteristics:  
+
+Runing run_analysis.R produces a file called tityData.txt that contains the averages of all the mean and standard deviatio metrics per subject per activity.  
+
+
+
+The following files need to be in your working directory:
 
  1. X_test.txt
  2. subject_test.txt
